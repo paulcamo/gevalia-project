@@ -1,0 +1,32 @@
+//- -------------- Header ---------------- -//
+//- -------------------------------------- -//
+
+header.main__header
+    h1.main__header__title The Gevalia Experience
+    
+    .hamburger
+
+    ul.main__header__nav
+        li.main__header__nav__item.active.first-item
+            span.icon-house.icon-item-header
+            +basicLink("our story", "http://gevaliaexperience.com/#story", "header__nav__icon header__nav__icon__home", "newTab")
+        li.main__header__nav__item.second-item
+            span.icon-bean.icon-item-header
+            +basicLink("our kaffe", "http://gevaliaexperience.com/#kaffe", "header__nav__icon header__nav__icon__cafe", "newTab")
+        li.main__header__nav__item.last__nav__item__crown
+            span.icon-crown.icon-item-header
+            +basicLink("Our New Products", "http://gevaliaexperience.com/#enjoy", "header__nav__icon header__nav__icon__style", "newTab")
+        li.main__header__nav__item.last__nav__item
+            span.icon-shop.icon-item-header
+            +basicLink("Shop Gevalia", "http://www.gevalia.com", "header__nav__icon header__nav__icon__sustainability", "newTab")
+    
+    ul.main__header__social
+        li.main__header__nav__social
+            a(href="http://instagram.com/GevaliaKaffe")
+                span.icon-instagram.icon-item-social
+        li.main__header__nav__social
+            a(href="https://www.facebook.com/GevaliaCoffee")
+                span.icon-facebook.icon-item-social
+        li.main__header__nav__social
+            a(href="https://twitter.com/Gevalia")
+                span.icon-twitter.icon-item-social

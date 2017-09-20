@@ -1,0 +1,137 @@
+.main__header {
+  height: 66px;
+  width: 100%;
+  background: $casablanca;
+  border-bottom: 1px solid $saddle;
+  position: fixed;
+  z-index: 7;
+}
+.main__header__title {
+  width: 162px;
+  height: 180px;
+  text-indent: -999px;
+  display: block;
+  background: url("../img/header-logo-img.png") no-repeat;
+  margin-left: 0.74em;
+  position: absolute;
+}
+.main__header__nav {
+  display: inline-block;
+  position: absolute;
+  right: 9em;
+  top: 1.5em;
+  width: 600px;
+}
+.main__header__nav__item {
+  display: inline-block;
+}
+.main__header__social {
+  display: inline-block;
+  position: absolute;
+  right: 3.7em;
+  top: 1.5em;
+}
+.header__nav__icon {
+  font-size: 0.85em;
+  margin: 0 0.5em;
+  text-transform: uppercase;
+  color: $saddle;
+  display: block;
+  font-weight: 600;
+}
+.content {
+  padding-top: 66px;
+}
+.internal__gevalia__info {
+  overflow: hidden;
+  padding: 0;
+  width: 100%;
+  position: relative;
+  display: block;
+}
+.panel__detail {
+  width: 990px;
+  margin: auto;
+}
+.gevalia__initiative {
+  height: 745px;
+  background: url("../img/coffe-background.svg") repeat $saddle;
+}
+.program__gevalia__division {
+  height: 737px;
+  background: url("../img/The-Gevalia-Sustainability.jpg") no-repeat transparent;
+  background-size: cover;
+}
+.education__gevalia__division {
+  height: 763px;
+  background: url("../img/panel-flower.svg") repeat $blue;
+}
+.gevalia__small__image {
+  height: 281px;
+}
+.gevalia__info__division {
+  height: 652px;
+}
+.gevalia__assistance .gevalia__small__image {
+  background: url("../img/The-Gevalia-Sustainability-Job.jpg") repeat transparent;
+  background-size: cover;
+}
+.gevalia__assistance .gevalia__info__division {
+  background: url("../img/panel-arrows.svg") repeat transparent;
+}
+.gevalia__job .gevalia__small__image {
+  background: url("../img/The-Gevalia-Sustainability-coffee.jpg") repeat $saddle;
+  background-size: cover;
+}
+.gevalia__job .gevalia__info__division {
+  background: url("../img/coffe-background.svg") repeat $saddle;
+}
+.gevalia__experience .gevalia__small__image {
+  background: url("../img/The-Gevalia-Sustainability-experience.jpg") repeat transparent;
+  background-size: cover;
+}
+.gevalia__info__division__subfooter {
+  height: 248px;
+  background: url("../img/panel-flower.svg") repeat $blue;
+}
+.main__header {
+  height: 66px;
+  width: 100%;
+  background: $casablanca;
+  border-bottom: 1px solid $saddle;
+  position: fixed;
+  z-index: 7;
+}
+.main__header__title {
+  width: 162px;
+  height: 180px;
+  text-indent: -999px;
+  display: block;
+  background: url("../img/header-logo-img.png") no-repeat;
+  margin-left: 0.74em;
+  position: absolute;
+}
+.main__header__nav {
+  display: inline-block;
+  position: absolute;
+  right: 9em;
+  top: 1.5em;
+  width: 600px;
+}
+.main__header__nav__item {
+  display: inline-block;
+}
+.main__header__social {
+  display: inline-block;
+  position: absolute;
+  right: 3.7em;
+  top: 1.5em;
+}
+.header__nav__icon {
+  font-size: 0.85em;
+  margin: 0 0.5em;
+  text-transform: uppercase;
+  color: $saddle;
+  display: block;
+  font-weight: 600;
+}

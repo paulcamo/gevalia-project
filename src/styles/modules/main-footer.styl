@@ -1,0 +1,167 @@
+// ---------------------------------------- //
+// --------------- MAIN FOOTER ------------ //
+// ---------------------------------------- //
+
+.page__footer
+    height 103px
+    width 100%
+    background $casablanca
+    position relative
+    width 100%
+    +for_breakpoint(mobile)
+        height 100%
+        display block
+.footer__home
+    left 5em
+    position relative
+    top -19px
+    +for_breakpoint(mobile)
+        left 8em
+    &:after
+        bottom 100%
+        left 50%
+        content ''
+        height 0
+        width 0
+        pointer-events none
+        border-bottom 126px solid $casablanca
+        border-width 37px 130px
+        margin-left -54px
+        position absolute
+        top -3px
+        border-left 88px solid transparent
+        border-right 88px solid transparent
+    .icon-house
+        position absolute
+        top 7px
+        z-index 3
+        left 24px
+        color $saddle
+        
+.footer__nav__links
+    margin-left 17.6em
+    font-size .8em
+    padding 1em 0 4em
+    text-transform uppercase
+    position relative
+    top 23px
+    +for_breakpoint(tablet)
+        margin-left .6em
+    +for_breakpoint(mobile)
+        margin-left 0
+        padding 1em 24px 2em
+        display flex
+        width 85%
+        height auto
+        flex-direction column
+        clear both
+    .internal__footer__links
+        margin-right .8em
+        float left
+        display inline-block
+        position absolute
+        +for_breakpoint(mobile)
+            padding 12px 0
+            position relative
+            left 0
+        &:hover
+            font-weight 800
+            .footer__icons
+                &:after
+                    background $saddle
+                    content ''
+                    height 2px
+                    top 1.3em
+                    left 1.8em
+                    position absolute
+                    width 0.9em
+                    +for_breakpoint(mobile)
+                        display none
+            .footer__icons__story
+                &:after
+                    left 1.5em
+            .footer__icons__kaffe
+                &:after
+                    left 1.1em
+.footer__nav__copy
+    .internal__footer__copy
+        display inline-block
+        float left
+        +for_breakpoint(mobile)
+            padding 0.5em 0 0.5em
+        
+.footer__icons
+    font-family Helvetica, sans-serif
+    color $saddle
+    float left
+    margin-left 3px
+    &:hover
+        font-weight 800
+        
+.icon-item-footer
+    position relative
+    float left
+
+.footer__icons__products
+        padding-left 4px
+        float left
+.footer__nav__copy
+    font-size .7em
+    top 3.2em
+    position absolute
+    right 5em
+    color $saddle
+    +for_breakpoint(tablet)
+        right 2em
+    +for_breakpoint(mobile)
+        font-size .9em
+        padding 1em 24px 2em
+        display flex
+        width 85%
+        height auto
+        flex-direction column
+        position relative
+        clear both
+        top 0
+        right 0
+    .footer__copy
+        color $saddle
+        margin-right .5em
+        text-decoration underline
+        &:hover
+            color $black
+            
+.active
+    font-weight 800
+    .footer__icons__story
+        &:after
+            background $saddle
+            content ''
+            height 2px
+            top 1.3em
+            left 1.5em
+            position absolute
+            width 0.9em
+            +for_breakpoint(mobile)
+                display none
+                
+.footer__icons__shop
+    +for_breakpoint(mobile)
+        padding-left 20px
+.shop__footer__link
+    padding-left 20px
+    background url(../img/cart.png) no-repeat #fcc24b
+    background-position left 0px
+    background-size 15.5px auto
+    +for_breakpoint(mobile)
+        background-position left 12px
+        padding-left 23px
+    .footer__icons__sustainability
+        padding-left 6px  
+        
+.second__footer__link
+    left 110px
+.third__footer__link
+    left 214px
+.fourth__footer__link
+    left 394px

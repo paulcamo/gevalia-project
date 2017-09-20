@@ -1,0 +1,217 @@
+.header__gevalia {
+  font-size: 3.9em;
+  line-height: 1em;
+  width: auto;
+  padding-bottom: 0.75em;
+  padding-top: 1.9em;
+  position: relative;
+  font-family: $font-primary;
+for_breakpoint(tablet)
+for_breakpoint(mobile)
+}
+.header__gevalia:after {
+  border-bottom: 4px solid;
+  bottom: 0;
+  content: '';
+  left: 0;
+  position: absolute;
+  width: 0.7em;
+}
+.header__gevalia .black {
+  font-family: $font-secondary;
+}
+.gevalia__detail__text {
+  margin-left: 18.5em;
+  margin-top: 2.8em;
+  width: 60%;
+for_breakpoint(tablet)
+for_breakpoint(mobile)
+}
+.gevalia__section__content {
+  padding-bottom: 1em;
+  line-height: 1.45em;
+  font-size: 0.8em;
+  font-family: $font-text;
+}
+.gevalia__section__content .black {
+  font-family: $font-secondary;
+}
+.gevalia__section__content__large {
+  font-size: 1em;
+  padding-bottom: 1em;
+  line-height: 1.45em;
+  font-family: $font-text;
+}
+.gevalia__section__content__large .black {
+  font-family: $font-secondary;
+}
+.gevalia__list__info {
+  padding-bottom: 1em;
+  line-height: 1.45em;
+  font-size: 0.8em;
+  padding-left: 12px;
+  position: relative;
+  font-family: $font-text;
+}
+.gevalia__list__info:before {
+  content: '•';
+  position: absolute;
+  left: 2px;
+}
+.content {
+  padding-top: 66px;
+}
+.internal__gevalia__info {
+  overflow: hidden;
+  padding: 0;
+  width: 100%;
+  position: relative;
+  display: block;
+}
+.panel__detail {
+  width: 990px;
+  margin: auto;
+  position: relative;
+for_breakpoint(tablet)
+for_breakpoint(mobile)
+}
+.subtitle__img {
+  position: absolute;
+  right: 0;
+  top: -115px;
+for_breakpoint(tablet)
+for_breakpoint(mobile)
+}
+.gevalia__initiative {
+  height: 745px;
+  background: url("../img/coffe-background.svg") repeat $saddle;
+}
+.program__gevalia__division {
+  height: 737px;
+  background: url("../img/The-Gevalia-Sustainability.jpg") no-repeat transparent;
+  background-size: cover;
+for_breakpoint(mobile)
+}
+.education__gevalia__division {
+  height: 763px;
+  background: url("../img/panel-flower.svg") repeat $blue;
+}
+.gevalia__small__image {
+  height: 281px;
+}
+.gevalia__info__division {
+  height: 652px;
+}
+.gevalia__assistance .gevalia__small__image {
+  background: url("../img/The-Gevalia-Sustainability-Job.jpg") repeat transparent 0px;
+  background-size: cover;
+}
+.gevalia__assistance .gevalia__info__division {
+  background: url("../img/panel-arrows.svg") repeat transparent;
+}
+.gevalia__job .gevalia__small__image {
+  background: url("../img/The-Gevalia-Sustainability-coffee.jpg") repeat $saddle 0px;
+  background-size: cover;
+}
+.gevalia__job .gevalia__info__division {
+  background: url("../img/coffe-background.svg") repeat $saddle;
+}
+.gevalia__experience .gevalia__small__image {
+  background: url("../img/The-Gevalia-Sustainability-experience.jpg") repeat transparent 0px;
+  background-size: cover;
+}
+.gevalia__info__division__subfooter {
+  height: 248px;
+  background: url("../img/panel-flower.svg") repeat $blue;
+}
+.gevalia__initiative .header__gevalia {
+  color: $casablanca;
+}
+.gevalia__initiative .gevalia__detail__text > p {
+  color: $casablanca;
+  padding-bottom: 1em;
+  line-height: 1.45em;
+  font-size: 0.8em;
+for_breakpoint(mobile)
+}
+.cta__section__gevalia {
+  color: $casablanca;
+  border: 1px solid $casablanca;
+  position: relative;
+  padding: 0.5em 2em 0.5em 0.5em;
+  margin-top: 0.75em;
+  display: inline-block;
+  font-family: $font-text;
+  transition: all 0.2s ease-out;
+}
+.cta__section__gevalia:hover {
+  background: rgba(252,194,75,0.4);
+  color: $white;
+}
+.cta__section__gevalia:after {
+  content: '';
+  position: absolute;
+  background: url("../img/arrow-cta.png") no-repeat transparent;
+  width: 9px;
+  height: 17px;
+  right: 10px;
+}
+.gevalia__program .header__gevalia {
+  color: $white;
+for_breakpoint(mobile)
+}
+.gevalia__program .gevalia__section__content {
+  color: $white;
+}
+.gevalia__program .gevalia__list__info {
+  color: $white;
+}
+.gevalia__program .gevalia__section__content__large {
+  color: $white;
+}
+.gevalia__assistance .header__gevalia {
+  color: $saddle;
+for_breakpoint(mobile)
+}
+.gevalia__assistance .gevalia__section__content__large {
+  color: $saddle;
+}
+.gevalia__assistance .gevalia__list__info {
+  color: $saddle;
+}
+.gevalia__job .header__gevalia {
+  color: $white;
+}
+.gevalia__job .gevalia__section__content__large {
+  color: $white;
+}
+.gevalia__job .gevalia__list__info {
+  color: $white;
+}
+.gevalia__info__division__subfooter {
+  position: relative;
+}
+.gevalia__info__division__subfooter .header__gevalia {
+  padding-top: 0.6em;
+  color: $white;
+}
+.gevalia__info__division__subfooter .gevalia__social__tools {
+  right: 3.2em;
+  position: absolute;
+  bottom: 5.2em;
+for_breakpoint(mobile)
+}
+.gevalia__social__tools .icon-item-social-gevalia {
+  color: $white;
+  position: relative;
+  font-size: 3em;
+  margin-right: 0.5em;
+for_breakpoint(mobile)
+}
+.social-tools {
+  transition: all 0.2s ease-out;
+  display: inline-block;
+}
+.social-tools:hover {
+  transform: scale(1.3, 1.3);
+}

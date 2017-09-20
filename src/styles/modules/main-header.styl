@@ -1,0 +1,188 @@
+// ---------------------------------------- //
+// --------------- MAIN HEADER ------------ //
+// ---------------------------------------- //
+
+.main__header
+    height 66px
+    width 100%
+    background $casablanca
+    border-bottom 1px solid $saddle
+    position fixed
+    z-index 7
+.main__header__title
+    width 162px
+    height 180px
+    text-indent -999px
+    display block
+    background url("../img/header-logo-img.png") no-repeat
+    margin-left: .74em
+    position absolute
+    +for_breakpoint(tablet)
+        width 99px
+        height 149px
+        background-size 100%
+    +for_breakpoint(mobile)
+        width 76px
+        background-size 100%
+        height 114px
+.main__header__nav
+    display inline-block
+    position absolute
+    right 8em
+    top 1.5em
+    width 620px
+    +for_breakpoint(tablet)
+        right 6em
+        width 570px
+    +for_breakpoint(mobile)
+        display none
+        right 0
+        top 66px
+        width 190px
+        border 2px solid $saddle
+        background $casablanca
+        &.show
+            display block
+.main__header__nav__item
+    display inline-block
+    position absolute
+    margin-right 21px
+    +for_breakpoint(tablet)
+        margin-right 0
+    +for_breakpoint(mobile)
+        margin-right 0
+        border-bottom 1px solid $saddle
+        display block
+        padding 14px 18px 28px
+        width 100%
+        &:last-child
+            border-bottom none
+.main__header__social
+    display inline-block
+    position absolute
+    right 3.7em
+    top 1.5em  
+    +for_breakpoint(tablet)
+        right 1.7em
+    +for_breakpoint(mobile)
+        display none
+        right 0
+        top 239px
+        width 190px
+        background $casablanca
+        border 2px solid $saddle
+        padding 14px 0
+        &.show
+            display block
+            
+.icon-item-header
+    position relative
+    float left
+    +for_breakpoint(mobile)
+        position relative
+        left -7px
+        display inline-block
+        float left
+.icon-sustainability
+    top -1px
+    font-size 14px
+.header__nav__icon
+    font-size .85em
+    margin 0 .5em
+    text-transform uppercase
+    color $saddle
+    display block
+    font-family Helvetica, sans-serif
+    float left
+    position relative
+    &:hover
+        font-weight 600
+    +for_breakpoint(mobile)
+        margin 0
+        display inline-block
+.main__header__nav__social
+    display inline-block
+    float left
+    margin-right 0.5em
+    +for_breakpoint(mobile)
+        width 43px
+        &:first-child
+            margin-left 25px
+.icon-item-social
+    color $saddle
+    &:hover
+        color $black
+.main__header__nav__item
+    &:hover
+        .icon-item-header
+            &:after
+                background $saddle
+                content ''
+                height 2px
+                top 1.3em
+                left 1.8em
+                position absolute
+                width 0.9em
+                +for_breakpoint(mobile)
+                    display none
+        .icon-bean
+            &:after
+                left 1.5em
+        .icon-sustainability
+            &:after
+                background $saddle
+                content ''
+                height 2px
+                top 1.6em
+                left 2em
+                position absolute
+                width 1.5em
+.active
+    font-weight 800
+    .icon-item-header
+        &:after
+            background $saddle
+            content ''
+            height 2px
+            top 1.3em
+            left 1.8em
+            position absolute
+            width 0.9em
+            +for_breakpoint(mobile)
+                    display none
+            
+.hamburger
+    display none
+    +for_breakpoint(mobile)
+        display block
+        background url("../img/header-hamburger.svg") no-repeat
+        border 2px solid $saddle
+        content ''
+        cursor pointer
+        height 38px
+        width 40px
+        display block
+        position absolute
+        top 12px
+        right 10px
+        
+.header__nav__icon__sustainability
+    padding-left 20px
+    background url(../img/cart.png) no-repeat #fcc24b
+    background-position left 0px
+    background-size 15.5px auto
+    
+.last__nav__item
+    margin-right 0
+.last__nav__item__crown
+    margin-right 13px
+    +for_breakpoint(tablet)
+        margin-right 0
+     
+.second-item
+    left 120px
+.last__nav__item__crown
+    left 238px
+.last__nav__item
+    left 425px
+    
